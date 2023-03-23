@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]>   <html class="no-js oldie ie9 ie" lang="en-US" > <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- devices setting -->
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,width=device-width">
+
+    <!-- outputs by wp_head -->
+    <title>Ecommerce &#8211; Yet another awesome website by Phlox theme.</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel="alternate" type="application/rss+xml" title="Ecommerce &raquo; Feed" href="http://localhost/word3/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Ecommerce &raquo; Comments Feed" href="http://localhost/word3/comments/feed/" />
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "http:\/\/localhost\/word3\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode,
+                    e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+                    case "emoji":
+                        return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+                t.DOMReady = !0
+            }, t.supports.everything || (n = function() {
+                t.readyCallback()
+            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                "complete" === a.readyState && t.readyCallback()
+            })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='http://localhost/word3/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css' href='http://localhost/word3/wp-includes/css/classic-themes.min.css?ver=1' media='all' />
+    <style id='global-styles-inline-css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='http://localhost/word3/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.4' media='all' />
+    <link rel='stylesheet' id='auxin-base-css' href='http://localhost/word3/wp-content/themes/phlox/css/base.css?ver=2.11.1' media='all' />
+    <link rel='stylesheet' id='auxin-front-icon-css' href='http://localhost/word3/wp-content/themes/phlox/css/auxin-icon.css?ver=2.11.1' media='all' />
+    <link rel='stylesheet' id='auxin-main-css' href='http://localhost/word3/wp-content/themes/phlox/css/main.css?ver=2.11.1' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='http://localhost/word3/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.18.0' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='http://localhost/word3/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.11.5' media='all' />
+    <link rel='stylesheet' id='swiper-css' href='http://localhost/word3/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+    <link rel='stylesheet' id='elementor-post-5-css' href='http://localhost/word3/wp-content/uploads/elementor/css/post-5.css?ver=1679542826' media='all' />
+    <link rel='stylesheet' id='auxin-elementor-base-css' href='http://localhost/word3/wp-content/themes/phlox/css/other/elementor.css?ver=2.11.1' media='all' />
+    <link rel='stylesheet' id='auxin-elementor-widgets-css' href='http://localhost/word3/wp-content/plugins/auxin-elements/admin/assets/css/elementor-widgets.css?ver=2.11.2' media='all' />
+    <link rel='stylesheet' id='mediaelement-css' href='http://localhost/word3/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+    <link rel='stylesheet' id='wp-mediaelement-css' href='http://localhost/word3/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.1.1' media='all' />
+    <link rel='stylesheet' id='elementor-post-42-css' href='http://localhost/word3/wp-content/uploads/elementor/css/post-42.css?ver=1679542826' media='all' />
+    <link rel='stylesheet' id='auxin-custom-css' href='http://localhost/word3/wp-content/uploads/phlox/custom.css?ver=2.1' media='all' />
+    <link rel='stylesheet' id='auxin-portfolio-css' href='http://localhost/word3/wp-content/themes/phlox/css/portfolio.css?ver=2.3.1' media='all' />
+    <link rel='stylesheet' id='elementor-post-219-css' href='http://localhost/word3/wp-content/uploads/elementor/css/post-219.css?ver=1679542826' media='all' />
+    <link rel='stylesheet' id='elementor-post-217-css' href='http://localhost/word3/wp-content/uploads/elementor/css/post-217.css?ver=1679542826' media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Nunito%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.1.1'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='http://localhost/word3/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='http://localhost/word3/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-brands-css' href='http://localhost/word3/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script src='http://localhost/word3/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+    <script src='http://localhost/word3/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+    <script id='auxin-modernizr-js-extra'>
+        var auxin = {
+            "ajax_url": "http:\/\/localhost\/word3\/wp-admin\/admin-ajax.php",
+            "is_rtl": "",
+            "is_reponsive": "1",
+            "is_framed": "",
+            "frame_width": "20",
+            "wpml_lang": "en",
+            "uploadbaseurl": "http:\/\/localhost\/word3\/wp-content\/uploads",
+            "nonce": "7bec0a5bd7"
+        };
+    </script>
+    <script id='auxin-modernizr-js-before'>
+        /* < ![CDATA[ */
+        function auxinNS(n) {
+            for (var e = n.split("."), a = window, i = "", r = e.length, t = 0; r > t; t++) "window" != e[t] && (i = e[t], a[i] = a[i] || {}, a = a[i]);
+            return a;
+        }
+        /* ]]> */
+    </script>
+    <script src='http://localhost/word3/wp-content/themes/phlox/js/solo/modernizr-custom.min.js?ver=2.11.1' id='auxin-modernizr-js'></script>
+    <link rel="https://api.w.org/" href="http://localhost/word3/wp-json/" />
+    <link rel="alternate" type="application/json" href="http://localhost/word3/wp-json/wp/v2/pages/42" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/word3/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/word3/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 6.1.1" />
+    <link rel="canonical" href="http://localhost/word3/" />
+    <link rel='shortlink' href='http://localhost/word3/' />
+    <link rel="alternate" type="application/json+oembed" href="http://localhost/word3/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fword3%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="http://localhost/word3/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fword3%2F&#038;format=xml" />
+    <meta name="title" content="home" />
+    <meta name="description" content="We are WordPress Agency Make More Time For The Work That Matters Most Time changes everything so I have to improve myself with time cause if I don&#8217;t then I will be left behind .  Watch Video Watch Video Team Accounts There are many variation passages for Lorem Ipsum majority some by words which don&#8217;t [&hellip;]"
+    />
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#1bb0ce" />
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#1bb0ce" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="generator" content="Elementor 3.11.5; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <!-- end wp_head -->
+</head>
+
+
+<body class="home page-template-default page page-id-42 wp-custom-logo elementor-default elementor-kit-5 elementor-page elementor-page-42 phlox aux-dom-unready aux-full-width aux-resp aux-hd  aux-page-animation-off _auxels" data-framed="">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+    <svg
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+        <svg
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+            <defs>
+                <filter id="wp-duotone-blue-red">
+                    <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                    <feComponentTransfer color-interpolation-filters="sRGB">
+                        <feFuncR type="table" tableValues="0 1" />
+                        <feFuncG type="table" tableValues="0 0.27843137254902" />
+                        <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                        <feFuncA type="table" tableValues="1 1" />
+                    </feComponentTransfer>
+                    <feComposite in2="SourceGraphic" operator="in" />
+                </filter>
+            </defs>
+            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+            <svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+                <defs>
+                    <filter id="wp-duotone-magenta-yellow">
+                        <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                        <feComponentTransfer color-interpolation-filters="sRGB">
+                            <feFuncR type="table" tableValues="0.78039215686275 1" />
+                            <feFuncG type="table" tableValues="0 0.94901960784314" />
+                            <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                            <feFuncA type="table" tableValues="1 1" />
+                        </feComponentTransfer>
+                        <feComposite in2="SourceGraphic" operator="in" />
+                    </filter>
+                </defs>
+                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+                    <defs>
+                        <filter id="wp-duotone-blue-orange">
+                            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                            <feComponentTransfer color-interpolation-filters="sRGB">
+                                <feFuncR type="table" tableValues="0.098039215686275 1" />
+                                <feFuncG type="table" tableValues="0 0.66274509803922" />
+                                <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                                <feFuncA type="table" tableValues="1 1" />
+                            </feComponentTransfer>
+                            <feComposite in2="SourceGraphic" operator="in" />
+                        </filter>
+                    </defs>
+                    </svg>
+                    <div id="inner-body">
+
+                        <header class="aux-elementor-header aux-overlay-header" id="site-elementor-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader" data-sticky-height="80">
+                            <div class="aux-wrapper">
+                                <div class="aux-header aux-header-elements-wrapper">
+                                    <div data-elementor-type="header" data-elementor-id="219" class="elementor elementor-219">
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-71f9487e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="71f9487e" data-element_type="section">
+                                            <div class="elementor-container elementor-column-gap-no">
+                                                <div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2eec32ba" data-id="2eec32ba" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-3fcc0276 elementor-widget__width-auto aux-appear-watch-animation aux-scale-down elementor-widget elementor-widget-aux_logo" data-id="3fcc0276" data-element_type="widget" data-widget_type="aux_logo.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="aux-widget-logo"><a class="aux-logo-anchor aux-has-logo" title="Ecommerce" href="http://localhost/word3/"><img width="177" height="115" src="http://localhost/word3/wp-content/uploads/2023/03/logo-1.png" class="aux-attachment aux-featured-image attachment-177x115 aux-attachment-id-176 " alt="logo" data-ratio="1.54" data-original-w="177" /></a>
+                                                                    <a
+                                                                        class="aux-logo-anchor aux-logo-sticky aux-logo-hidden aux-has-logo" title="Ecommerce" href="http://localhost/word3/"><img width="177" height="115" src="http://localhost/word3/wp-content/uploads/2023/03/logo.png" class="aux-attachment aux-featured-image attachment-177x115 aux-attachment-id-68 " alt="logo"
+                                                                            data-ratio="1.54" data-original-w="177" /></a>
+                                                                        <section class="aux-logo-text">
+                                                                            <h3 class="site-title"><a href="http://localhost/word3/" title="Ecommerce">Ecommerce</a></h3>
+                                                                            <p class="site-description">Yet another awesome website by Phlox theme.</p>
+                                                                        </section>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-5a7f4696 elementor-widget__width-auto aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_menu_box" data-id="5a7f4696" data-element_type="widget" data-widget_type="aux_menu_box.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="aux-elementor-header-menu aux-nav-menu-element aux-nav-menu-element-5a7f4696">
+                                                                    <div class="aux-burger-box" data-target-panel="overlay" data-target-content=".elementor-element-5a7f4696 .aux-master-menu">
+                                                                        <div class="aux-burger aux-lite-small"><span class="mid-line"></span></div>
+                                                                    </div>
+                                                                    <!-- start master menu -->
+                                                                    <nav id="master-menu-elementor-5a7f4696" class="menu-header-social-menu-container">
+
+                                                                        <ul id="menu-header-social-menu" class="aux-master-menu aux-no-js aux-skin-classic aux-horizontal" data-type="horizontal" data-switch-type="toggle" data-switch-parent=".elementor-element-5a7f4696 .aux-fs-popup .aux-fs-menu" data-switch-width="900">
+                                                                            <!-- start single menu -->
+                                                                            <li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-42 current_page_item menu-item-231 aux-menu-depth-0 aux-menu-root-1 aux-menu-item">
+                                                                                <a href="http://localhost/word3/" class="aux-item-content">
+				<span class="aux-menu-label">Home</span>
+			</a>
+                                                                            </li>
+                                                                            <!-- end single menu -->
+                                                                            <!-- start single menu -->
+                                                                            <li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233 aux-menu-depth-0 aux-menu-root-2 aux-menu-item">
+                                                                                <a href="http://localhost/word3/about/" class="aux-item-content">
+				<span class="aux-menu-label">Blogs</span>
+			</a>
+                                                                            </li>
+                                                                            <!-- end single menu -->
+                                                                            <!-- start single menu -->
+                                                                            <li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232 aux-menu-depth-0 aux-menu-root-3 aux-menu-item">
+                                                                                <a href="http://localhost/word3/about/" class="aux-item-content">
+				<span class="aux-menu-label">Contact Us</span>
+			</a>
+                                                                            </li>
+                                                                            <!-- end single menu -->
+                                                                            <!-- start single menu -->
+                                                                            <li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-42 current_page_item menu-item-229 aux-menu-depth-0 aux-menu-root-4 aux-menu-item">
+                                                                                <a href="http://localhost/word3/" class="aux-item-content">
+				<span class="aux-menu-label">About</span>
+			</a>
+                                                                            </li>
+                                                                            <!-- end single menu -->
+                                                                        </ul>
+
+                                                                    </nav>
+                                                                    <!-- end master menu -->
+                                                                    <section class="aux-fs-popup aux-fs-menu-layout-center aux-indicator">
+                                                                        <div class="aux-panel-close">
+                                                                            <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+                                                                        </div>
+                                                                        <div class="aux-fs-menu" data-menu-title=""></div>
+                                                                    </section>
+                                                                </div>
+                                                                <style>
+                                                                    @media only screen and (min-width: 901px) {
+                                                                        .elementor-element-5a7f4696 .aux-burger-box {
+                                                                            display: none
+                                                                        }
+                                                                    }
+                                                                </style>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-4a707824 elementor-widget__width-auto elementor-hidden-phone aux-appear-watch-animation aux-fade-in-right-1 elementor-widget elementor-widget-aux_modern_button" data-id="4a707824" data-element_type="widget"
+                                                            data-widget_type="aux_modern_button.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="aux-modern-button-wrapper aux-modern-button-align-left">
+                                                                    <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-">
+                                                                        <div class="aux-overlay"></div>
+                                                                        <div class="aux-icon ">
+                                                                        </div>
+                                                                        <div class="aux-text">
+                                                                            <span class="aux-text-before">Get Started</span> </div>
+                                                                    </a>
+
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                                <!-- end of header-elements -->
+                            </div>
+                            <!-- end of wrapper -->
+                        </header>
+                        <!-- end header -->
+
+                        <main id="main" class="aux-main aux-territory  aux-single aux-page aux-full-container aux-content-top-margin no-sidebar aux-sidebar-style-border aux-user-entry">
+                            <div class="aux-wrapper">
+                                <div class="aux-container aux-fold">
+
+                                    <div id="primary" class="aux-primary">
+                                        <div class="content" role="main">
+
+
+
+
+                                            <article id="post-42" class="post-42 page type-page status-publish hentry">
+
+                                                <div class="entry-main">
+
+                                                    <div class="entry-content">
+
+                                                        <div data-elementor-type="wp-page" data-elementor-id="42" class="elementor elementor-42">
+                                                            <section class="elementor-section elementor-top-section elementor-element elementor-element-5b8698d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5b8698d" data-element_type="section"
+                                                                data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;curve&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;}">
+                                                                <div class="elementor-shape elementor-shape-bottom" data-negative="true">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"/>
+</svg> </div>
+                                                                <div class="elementor-container elementor-column-gap-default">
+                                                                    <div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8ba0553" data-id="8ba0553" data-element_type="column">
+                                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                                            <div class="elementor-element elementor-element-d5d9d35 aux-appear-watch-animation aux-fade-in-up-2 elementor-widget elementor-widget-aux_modern_heading" data-id="d5d9d35" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <section class="aux-widget-modern-heading">
+                                                                                        <div class="aux-widget-inner">
+                                                                                            <h2 class="aux-modern-heading-primary">We are WordPress Agency </h2>
+                                                                                            <h3 class="aux-modern-heading-secondary"><span class="aux-head-before">Make More Time For The Work That Matters Most </span></h3>
+                                                                                            <div class="aux-modern-heading-description">
+                                                                                                <p>Time changes everything so I have to improve myself with time cause if I don't then I will be left behind . </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </section>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="elementor-element elementor-element-eba7115 elementor-widget__width-auto aux-appear-watch-animation aux-scale-down-1 elementor-widget elementor-widget-aux_modern_button" data-id="eba7115" data-element_type="widget" data-widget_type="aux_modern_button.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <div class="aux-modern-button-wrapper aux-modern-button-align-left">
+                                                                                        <span class="aux-lightbox-video ">            <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon- aux-open-video" href="https://www.youtube.com/watch?v=EThJJYbRce0" data-type="video">
+                <div class="aux-overlay"></div>
+                                    <div class="aux-icon ">
+                                            </div>
+                                <div class="aux-text">
+<span class="aux-text-before">Watch Video</span> </div>
+                                                                                    </a>
+                                                                                    </span>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="elementor-element elementor-element-dadf125 elementor-widget__width-auto aux-appear-watch-animation aux-flip-in-down elementor-widget elementor-widget-aux_modern_button" data-id="dadf125" data-element_type="widget" data-widget_type="aux_modern_button.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div class="aux-modern-button-wrapper aux-modern-button-align-left">
+                                                                                    <span class="aux-lightbox-video ">            <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon- aux-open-video" href="https://www.youtube.com/watch?v=EThJJYbRce0" data-type="video">
+                <div class="aux-overlay"></div>
+                                    <div class="aux-icon ">
+                                            </div>
+                                <div class="aux-text">
+<span class="aux-text-before">Watch Video</span> </div>
+                                                                                </a>
+                                                                                </span>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                        <div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a84bafd" data-id="a84bafd" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-77a65d2 aux-appear-watch-animation aux-fade-in-down-1 elementor-widget elementor-widget-aux_image" data-id="77a65d2" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-au7140bcf1">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" width="408" height="389" src="http://localhost/word3/wp-content/uploads/2023/03/card9.png" class="aux-attachment aux-featured-image aux-attachment-id-61" alt="card9" data-ratio="1.05" data-original-w="408" />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-9fc71f8 aux-appear-watch-animation aux-fade-in-left elementor-widget elementor-widget-aux_image" data-id="9fc71f8" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-au9486d31a">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" loading="lazy" width="405" height="279" src="http://localhost/word3/wp-content/uploads/2023/03/Card-1.png" class="aux-attachment aux-featured-image aux-attachment-id-59" alt="Card-1" data-ratio="1.45" data-original-w="405" />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-97acc1e aux-appear-watch-animation aux-zoom-in-2 elementor-widget elementor-widget-aux_image" data-id="97acc1e" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-aucf8d9867">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" loading="lazy" width="218" height="218" src="http://localhost/word3/wp-content/uploads/2023/03/Group-9280.png" class="aux-attachment aux-featured-image aux-attachment-id-66" alt="Group-9280" data-ratio="1" data-original-w="218" />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-7f1cfaa aux-appear-watch-animation aux-mask-from-top elementor-widget elementor-widget-aux_image" data-id="7f1cfaa" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-au6ed1ab68">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" loading="lazy" width="84" height="129" src="http://localhost/word3/wp-content/uploads/2023/03/Group-9279.png" class="aux-attachment aux-featured-image aux-attachment-id-65" alt="Group-9279" data-ratio="0.65" data-original-w="84"
+                                                                                    />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-7d952ed aux-appear-watch-animation aux-fade-in-right-2 elementor-widget elementor-widget-aux_image" data-id="7d952ed" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-au71e4a93e">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" loading="lazy" width="407" height="468" src="http://localhost/word3/wp-content/uploads/2023/03/Group-7555.png" class="aux-attachment aux-featured-image aux-attachment-id-63" alt="Group-7555" data-ratio="0.87" data-original-w="407"
+                                                                                    />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-7fed2f6 aux-appear-watch-animation aux-scale-down elementor-widget elementor-widget-aux_image" data-id="7fed2f6" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-au482adf3a">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" loading="lazy" width="826" height="857" src="http://localhost/word3/wp-content/uploads/2023/03/634.png" class="aux-attachment aux-featured-image aux-attachment-id-56" alt="634" data-ratio="0.96" data-original-w="826" />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    </section>
+                                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-ce3935d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ce3935d" data-element_type="section">
+                                                        <div class="elementor-container elementor-column-gap-default">
+                                                            <div class="aux-parallax-section elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-bc89ff0" data-id="bc89ff0" data-element_type="column">
+                                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-c5bebf8 aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_text" data-id="c5bebf8" data-element_type="widget" data-widget_type="aux_text.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <section class="widget-container aux-widget-text aux-parent-au1855bd0c">
+                                                                                <div class="aux-widget-advanced-text aux-wrap-style-simple aux-ico-pos-top aux-text-center aux-text-resp- aux-text-color-dark aux-text-widget-bg-center  ">
+
+                                                                                    <div class="aux-text-widget-header ">
+                                                                                        <div class="aux-ico-box aux-ico-large aux-ico-shape-circle aux-ico-clear ">
+                                                                                            <span class="aux-ico fas fa-bell"> </span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="aux-text-inner aux-text-widget-content">
+                                                                                        <h4 class="col-title">Team Accounts</h4>
+                                                                                        <div class="widget-content">
+                                                                                            <p>There are many variation passages for Lorem Ipsum majority some by words which don't look .</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="aux-text-widget-footer">
+                                                                                    <div class="aux-border-shape-none ">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </section>
+                                                                            <!-- widget-container -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-7e10883 aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_text" data-id="7e10883" data-element_type="widget" data-widget_type="aux_text.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <section class="widget-container aux-widget-text aux-parent-aub64c5ef0">
+                                                                                <div class="aux-widget-advanced-text aux-wrap-style-simple aux-ico-pos-top aux-text-center aux-text-resp- aux-text-color-dark aux-text-widget-bg-center  ">
+
+                                                                                    <div class="aux-text-widget-header ">
+                                                                                        <div class="aux-ico-box aux-ico-large aux-ico-shape-circle aux-ico-clear ">
+                                                                                            <span class="aux-ico fas fa-headphones-alt"> </span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="aux-text-inner aux-text-widget-content">
+                                                                                        <h4 class="col-title">Customer Support</h4>
+                                                                                        <div class="widget-content">
+                                                                                            <p>There are many variation passages for Lorem Ipsum majority some by words which don't look .</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="aux-text-widget-footer">
+                                                                                    <div class="aux-border-shape-none ">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </section>
+                                                                            <!-- widget-container -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="aux-parallax-section elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3d58fd2" data-id="3d58fd2" data-element_type="column">
+                                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-48797f1 aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_text" data-id="48797f1" data-element_type="widget" data-widget_type="aux_text.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <section class="widget-container aux-widget-text aux-parent-au70d7825a">
+                                                                                <div class="aux-widget-advanced-text aux-wrap-style-simple aux-ico-pos-top aux-text-center aux-text-resp- aux-text-color-dark aux-text-widget-bg-center  ">
+
+                                                                                    <div class="aux-text-widget-header ">
+                                                                                        <div class="aux-ico-box aux-ico-large aux-ico-shape-circle aux-ico-clear ">
+                                                                                            <span class="aux-ico fas fa-bell"> </span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="aux-text-inner aux-text-widget-content">
+                                                                                        <h4 class="col-title">Team Accounts</h4>
+                                                                                        <div class="widget-content">
+                                                                                            <p>There are many variation passages for Lorem Ipsum majority some by words which don't look .</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="aux-text-widget-footer">
+                                                                                    <div class="aux-border-shape-none ">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </section>
+                                                                            <!-- widget-container -->
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-e58823d aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_text" data-id="e58823d" data-element_type="widget" data-widget_type="aux_text.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <section class="widget-container aux-widget-text aux-parent-au650fd23a">
+                                                                                <div class="aux-widget-advanced-text aux-wrap-style-simple aux-ico-pos-top aux-text-center aux-text-resp- aux-text-color-dark aux-text-widget-bg-center  ">
+
+                                                                                    <div class="aux-text-widget-header ">
+                                                                                        <div class="aux-ico-box aux-ico-large aux-ico-shape-circle aux-ico-clear ">
+                                                                                            <span class="aux-ico fas fa-bell"> </span>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                    <div class="aux-text-inner aux-text-widget-content">
+                                                                                        <h4 class="col-title">Team Accounts</h4>
+                                                                                        <div class="widget-content">
+                                                                                            <p>There are many variation passages for Lorem Ipsum majority some by words which don't look .</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="aux-text-widget-footer">
+                                                                                    <div class="aux-border-shape-none ">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </section>
+                                                                            <!-- widget-container -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="aux-parallax-section elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a693787" data-id="a693787" data-element_type="column">
+                                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-4030580 aux-appear-watch-animation aux-fade-in-up-2 elementor-widget elementor-widget-aux_modern_heading" data-id="4030580" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <section class="aux-widget-modern-heading">
+                                                                                <div class="aux-widget-inner">
+                                                                                    <h2 class="aux-modern-heading-primary">Our Services</h2>
+                                                                                    <h3 class="aux-modern-heading-secondary"><span class="aux-head-before">Ultimate Experience</span></h3>
+                                                                                    <div class="aux-modern-heading-description">
+                                                                                        <p>In a professional context it always happens that private or corporate clients coder a publication to be made or presented .</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </section>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-649cce5 elementor-widget__width-auto aux-appear-watch-animation aux-scale-down-1 elementor-widget elementor-widget-aux_modern_button" data-id="649cce5" data-element_type="widget" data-widget_type="aux_modern_button.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="aux-modern-button-wrapper aux-modern-button-align-left">
+                                                                                <span class="aux-lightbox-video ">            <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon- aux-open-video" href="https://www.youtube.com/watch?v=EThJJYbRce0" data-type="video">
+                <div class="aux-overlay"></div>
+                                    <div class="aux-icon ">
+                                            </div>
+                                <div class="aux-text">
+<span class="aux-text-before">Watch Video</span> </div>
+                                                                            </a>
+                                                                            </span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                </section>
+                                                <section class="elementor-section elementor-top-section elementor-element elementor-element-e257aa3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e257aa3" data-element_type="section">
+                                                    <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-53a5960" data-id="53a5960" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-518865b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="518865b" data-element_type="section">
+                                                                    <div class="elementor-container elementor-column-gap-default">
+                                                                        <div class="aux-parallax-section elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-11ef671" data-id="11ef671" data-element_type="column">
+                                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                                <div class="elementor-element elementor-element-6f783d3 elementor-widget elementor-widget-counter" data-id="6f783d3" data-element_type="widget" data-widget_type="counter.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <style>
+                                                                                            /*! elementor - v3.11.5 - 14-03-2023 */
+
+                                                                                            .elementor-counter .elementor-counter-number-wrapper {
+                                                                                                display: flex;
+                                                                                                font-size: 69px;
+                                                                                                font-weight: 600;
+                                                                                                line-height: 1
+                                                                                            }
+
+                                                                                            .elementor-counter .elementor-counter-number-prefix,
+                                                                                            .elementor-counter .elementor-counter-number-suffix {
+                                                                                                flex-grow: 1;
+                                                                                                white-space: pre-wrap
+                                                                                            }
+
+                                                                                            .elementor-counter .elementor-counter-number-prefix {
+                                                                                                text-align: right
+                                                                                            }
+
+                                                                                            .elementor-counter .elementor-counter-number-suffix {
+                                                                                                text-align: left
+                                                                                            }
+
+                                                                                            .elementor-counter .elementor-counter-title {
+                                                                                                text-align: center;
+                                                                                                font-size: 19px;
+                                                                                                font-weight: 400;
+                                                                                                line-height: 2.5
+                                                                                            }
+                                                                                        </style>
+                                                                                        <div class="elementor-counter">
+                                                                                            <div class="elementor-counter-number-wrapper">
+                                                                                                <span class="elementor-counter-number-prefix"></span>
+                                                                                                <span class="elementor-counter-number" data-duration="2000" data-to-value="53" data-from-value="0" data-delimiter=",">0</span>
+                                                                                                <span class="elementor-counter-number-suffix">K</span>
+                                                                                            </div>
+                                                                                            <div class="elementor-counter-title">Happy Customers</div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="aux-parallax-section elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-1f8d988" data-id="1f8d988" data-element_type="column">
+                                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                                <div class="elementor-element elementor-element-64d867b elementor-widget elementor-widget-counter" data-id="64d867b" data-element_type="widget" data-widget_type="counter.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <div class="elementor-counter">
+                                                                                            <div class="elementor-counter-number-wrapper">
+                                                                                                <span class="elementor-counter-number-prefix"></span>
+                                                                                                <span class="elementor-counter-number" data-duration="2000" data-to-value="10" data-from-value="0" data-delimiter=",">0</span>
+                                                                                                <span class="elementor-counter-number-suffix">K</span>
+                                                                                            </div>
+                                                                                            <div class="elementor-counter-title">Layout Done</div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="aux-parallax-section elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2395a0a" data-id="2395a0a" data-element_type="column">
+                                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                                <div class="elementor-element elementor-element-ed7fe55 elementor-widget elementor-widget-counter" data-id="ed7fe55" data-element_type="widget" data-widget_type="counter.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <div class="elementor-counter">
+                                                                                            <div class="elementor-counter-number-wrapper">
+                                                                                                <span class="elementor-counter-number-prefix"></span>
+                                                                                                <span class="elementor-counter-number" data-duration="2000" data-to-value="500" data-from-value="0" data-delimiter=",">0</span>
+                                                                                                <span class="elementor-counter-number-suffix"></span>
+                                                                                            </div>
+                                                                                            <div class="elementor-counter-title">Get Award</div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="aux-parallax-section elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-0fc1afd" data-id="0fc1afd" data-element_type="column">
+                                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                                <div class="elementor-element elementor-element-26b3b7c elementor-widget elementor-widget-counter" data-id="26b3b7c" data-element_type="widget" data-widget_type="counter.default">
+                                                                                    <div class="elementor-widget-container">
+                                                                                        <div class="elementor-counter">
+                                                                                            <div class="elementor-counter-number-wrapper">
+                                                                                                <span class="elementor-counter-number-prefix"></span>
+                                                                                                <span class="elementor-counter-number" data-duration="2000" data-to-value="120" data-from-value="0" data-delimiter=",">0</span>
+                                                                                                <span class="elementor-counter-number-suffix"></span>
+                                                                                            </div>
+                                                                                            <div class="elementor-counter-title">Project Done</div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="elementor-section elementor-top-section elementor-element elementor-element-cd8d858 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cd8d858" data-element_type="section">
+                                                    <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-683a890" data-id="683a890" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-25e48bb aux-appear-watch-animation aux-slide-from-left elementor-widget elementor-widget-aux_image" data-id="25e48bb" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-au26900cdf">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" loading="lazy" width="484" height="460" src="http://localhost/word3/wp-content/uploads/2023/03/5558.jpg" class="aux-attachment aux-featured-image aux-attachment-id-71" alt="5558" srcset="http://localhost/word3/wp-content/uploads/2023/03/5558.jpg 150w,http://localhost/word3/wp-content/uploads/2023/03/5558.jpg 300w,http://localhost/word3/wp-content/uploads/2023/03/5558.jpg 484w"
+                                                                                        data-ratio="1" data-original-w="484" sizes="(max-width:479px) 480px,(max-width:767px) 768px,(max-width:1023px) 1024px,484px" />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-6eec437 aux-appear-watch-animation aux-mask-from-top elementor-widget elementor-widget-aux_image" data-id="6eec437" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-au01fa4af8">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" loading="lazy" width="244" height="89" src="http://localhost/word3/wp-content/uploads/2023/03/Group-10048.png" class="aux-attachment aux-featured-image aux-attachment-id-67" alt="Group-10048" data-ratio="2.74" data-original-w="244"
+                                                                                    />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-8f5fd40 aux-appear-watch-animation aux-flip-in-right-1 elementor-widget elementor-widget-aux_image" data-id="8f5fd40" data-element_type="widget" data-widget_type="aux_image.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="widget-container aux-widget-image aux-alignnone aux-parent-au8974c400">
+                                                                            <div class="aux-media-hint-frame ">
+                                                                                <div class="aux-media-image ">
+
+
+
+
+                                                                                    <img decoding="async" loading="lazy" width="660" height="601" src="http://localhost/word3/wp-content/uploads/2023/03/878.png" class="aux-attachment aux-featured-image aux-attachment-id-57" alt="878" srcset="http://localhost/word3/wp-content/uploads/2023/03/878.png 150w,http://localhost/word3/wp-content/uploads/2023/03/878.png 300w,http://localhost/word3/wp-content/uploads/2023/03/878.png 660w"
+                                                                                        data-ratio="1" data-original-w="660" sizes="(max-width:479px) 480px,(max-width:767px) 768px,(max-width:1023px) 1024px,660px" />
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </section>
+                                                                        <!-- widget-container -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6e8a306" data-id="6e8a306" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-6c5b7e6 aux-appear-watch-animation aux-fade-in-up-2 elementor-widget elementor-widget-aux_modern_heading" data-id="6c5b7e6" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="aux-widget-modern-heading">
+                                                                            <div class="aux-widget-inner">
+                                                                                <h2 class="aux-modern-heading-primary">About Team</h2>
+                                                                                <h3 class="aux-modern-heading-secondary"><span class="aux-head-before">We are The Leader in Web Design</span></h3>
+                                                                                <div class="aux-modern-heading-description">
+                                                                                    <p>In a professional context it always happens that private or corporate clients coder a publication to be made and presented with the actual content still not ready .Think
+                                                                                        of a news.</p>
+                                                                                    <p>In a professional context it always happens that private or corporate clients coder a publication to be made and presented with the actual content still not ready .Think
+                                                                                        of a news.</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="elementor-element elementor-element-d95c612 elementor-widget__width-auto aux-appear-watch-animation aux-flip-in-down elementor-widget elementor-widget-aux_modern_button" data-id="d95c612" data-element_type="widget" data-widget_type="aux_modern_button.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="aux-modern-button-wrapper aux-modern-button-align-left">
+                                                                            <span class="aux-lightbox-video ">            <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon- aux-open-video" href="https://www.youtube.com/watch?v=EThJJYbRce0" data-type="video">
+                <div class="aux-overlay"></div>
+                                    <div class="aux-icon ">
+                                            </div>
+                                <div class="aux-text">
+<span class="aux-text-before">Watch Video</span> </div>
+                                                                        </a>
+                                                                        </span>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-147270b elementor-widget__width-auto aux-appear-watch-animation aux-scale-down-1 elementor-widget elementor-widget-aux_modern_button" data-id="147270b" data-element_type="widget" data-widget_type="aux_modern_button.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="aux-modern-button-wrapper aux-modern-button-align-left">
+                                                                        <span class="aux-lightbox-video ">            <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon- aux-open-video" href="https://www.youtube.com/watch?v=EThJJYbRce0" data-type="video">
+                <div class="aux-overlay"></div>
+                                    <div class="aux-icon ">
+                                            </div>
+                                <div class="aux-text">
+<span class="aux-text-before">Watch Video</span> </div>
+                                                                    </a>
+                                                                    </span>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                    </section>
+                                    <section class="elementor-section elementor-top-section elementor-element elementor-element-30b8e12 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="30b8e12" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-default">
+                                            <div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3951be0" data-id="3951be0" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-dde113e aux-appear-watch-animation aux-fade-in-up-2 elementor-widget elementor-widget-aux_modern_heading" data-id="dde113e" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <section class="aux-widget-modern-heading">
+                                                                <div class="aux-widget-inner">
+                                                                    <h2 class="aux-modern-heading-primary">We are WordPress Agency</h2>
+                                                                    <h3 class="aux-modern-heading-secondary"><span class="aux-head-before">We Are The Leader In Web Design</span></h3>
+                                                                </div>
+                                                            </section>
+                                                        </div>
+                                                    </div>
+                                                    <section class="elementor-section elementor-inner-section elementor-element elementor-element-c1ae4be elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c1ae4be" data-element_type="section">
+                                                        <div class="elementor-container elementor-column-gap-default">
+                                                            <div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bcfc9d6" data-id="bcfc9d6" data-element_type="column">
+                                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-de36bb9 elementor-view-default elementor-widget elementor-widget-icon" data-id="de36bb9" data-element_type="widget" data-widget_type="icon.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-icon-wrapper">
+                                                                                <div class="elementor-icon">
+                                                                                    <i aria-hidden="true" class="fas fa-quote-left"></i> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-b58c373 elementor-widget elementor-widget-aux_testimonial" data-id="b58c373" data-element_type="widget" data-widget_type="aux_testimonial.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <section class="widget-container aux-widget-testimonial-container aux-parent-au3b0f3913">
+                                                                                <div class="  aux-widget-testimonial aux-testimonial-def-img ">
+                                                                                    <div class="aux-testimonial-content">
+                                                                                        <div class="entry-content">
+                                                                                            Click edit button to change this text. Collaboratively drive collaborative solutions technically sound process improvements. </div>
+                                                                                    </div>
+                                                                                    <div class="aux-testimonial-infobox">
+                                                                                        <div class="aux-testimonial-image">
+                                                                                            <img decoding="async" width="68" height="68" src="http://localhost/word3/wp-content/uploads/2023/03/Mask-Group-4.jpg" class="attachment-thumbnail size-thumbnail wp-image-69" alt="" loading="lazy" />                                                                                            </div>
+                                                                                        <div class="aux-testimonial-info">
+                                                                                            <h4 class="col-title">John Doe</h4>
+                                                                                            <h5 class="col-subtitle">One Year With Us</h5>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </section>
+                                                                            <!-- widget-container -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b4d2502" data-id="b4d2502" data-element_type="column">
+                                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-4101a1d elementor-view-default elementor-widget elementor-widget-icon" data-id="4101a1d" data-element_type="widget" data-widget_type="icon.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-icon-wrapper">
+                                                                                <div class="elementor-icon">
+                                                                                    <i aria-hidden="true" class="fas fa-quote-left"></i> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-027f63e elementor-widget elementor-widget-aux_testimonial" data-id="027f63e" data-element_type="widget" data-widget_type="aux_testimonial.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <section class="widget-container aux-widget-testimonial-container aux-parent-au59b1eb82">
+                                                                                <div class="  aux-widget-testimonial aux-testimonial-def-img ">
+                                                                                    <div class="aux-testimonial-content">
+                                                                                        <div class="entry-content">
+                                                                                            Click edit button to change this text. Collaboratively drive collaborative solutions technically sound process improvements. </div>
+                                                                                    </div>
+                                                                                    <div class="aux-testimonial-infobox">
+                                                                                        <div class="aux-testimonial-image">
+                                                                                            <img decoding="async" width="68" height="68" src="http://localhost/word3/wp-content/uploads/2023/03/Mask-Group-5.jpg" class="attachment-thumbnail size-thumbnail wp-image-70" alt="" loading="lazy" />                                                                                            </div>
+                                                                                        <div class="aux-testimonial-info">
+                                                                                            <h4 class="col-title">Jim Karry</h4>
+                                                                                            <h5 class="col-subtitle">One Year With Us</h5>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </section>
+                                                                            <!-- widget-container -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-752955c" data-id="752955c" data-element_type="column">
+                                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                                    <div class="elementor-element elementor-element-aa4d56e elementor-view-default elementor-widget elementor-widget-icon" data-id="aa4d56e" data-element_type="widget" data-widget_type="icon.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-icon-wrapper">
+                                                                                <div class="elementor-icon">
+                                                                                    <i aria-hidden="true" class="fas fa-quote-left"></i> </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="elementor-element elementor-element-c121b43 elementor-widget elementor-widget-aux_testimonial" data-id="c121b43" data-element_type="widget" data-widget_type="aux_testimonial.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <section class="widget-container aux-widget-testimonial-container aux-parent-au0ca854bf">
+                                                                                <div class="  aux-widget-testimonial aux-testimonial-def-img ">
+                                                                                    <div class="aux-testimonial-content">
+                                                                                        <div class="entry-content">
+                                                                                            Click edit button to change this text. Collaboratively drive collaborative solutions technically sound process improvements. </div>
+                                                                                    </div>
+                                                                                    <div class="aux-testimonial-infobox">
+                                                                                        <div class="aux-testimonial-image">
+                                                                                            <img decoding="async" width="68" height="68" src="http://localhost/word3/wp-content/uploads/2023/03/azamat-zhanisov-a5sRFieA3BY-unsplash.jpg" class="attachment-thumbnail size-thumbnail wp-image-58" alt="" loading="lazy" />                                                                                            </div>
+                                                                                        <div class="aux-testimonial-info">
+                                                                                            <h4 class="col-title">Mary Jane</h4>
+                                                                                            <h5 class="col-subtitle">One Year With Us</h5>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </section>
+                                                                            <!-- widget-container -->
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <!-- end article section -->
+
+                            <footer class="entry-meta">
+                            </footer>
+                            <!-- end article footer -->
+
+                    </div>
+
+                    </article>
+                    <!-- end article -->
+
+
+
+                    <div class="clear"></div>
+
+
+                    <div class="clear"></div>
+
+
+
+                    <!-- You can start editing here. -->
+
+
+
+
+
+
+
+                    </div>
+                    <!-- end content -->
+                    </div>
+                    <!-- end primary -->
+
+
+                    </div>
+                    <!-- end container -->
+                    </div>
+                    <!-- end wrapper -->
+                    </main>
+                    <!-- end main -->
+
+                    <footer class="aux-elementor-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+                        <div class="aux-wrapper">
+                            <div data-elementor-type="footer" data-elementor-id="217" class="elementor elementor-217">
+                                <section class="elementor-section elementor-top-section elementor-element elementor-element-3a465b46 elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a465b46" data-element_type="section"
+                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-container elementor-column-gap-no">
+                                        <div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7ae7ec2a" data-id="7ae7ec2a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-18eb89cc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="18eb89cc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                    <div class="elementor-container elementor-column-gap-no">
+                                                        <div class="aux-parallax-section elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6810eb2d" data-id="6810eb2d" data-element_type="column">
+                                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                                <div class="elementor-element elementor-element-6ac0d0cd aux-appear-watch-animation aux-fade-in-up elementor-widget elementor-widget-aux_modern_heading" data-id="6ac0d0cd" data-element_type="widget" data-widget_type="aux_modern_heading.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <section class="aux-widget-modern-heading">
+                                                                            <div class="aux-widget-inner">
+                                                                                <h5 class="aux-modern-heading-primary">Join Our Community</h5>
+                                                                                <h2 class="aux-modern-heading-secondary"><span class="aux-head-before">subscribe to our newsletter</span></h2>
+                                                                                <div class="aux-modern-heading-description">
+                                                                                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="elementor-section elementor-top-section elementor-element elementor-element-2606b596 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2606b596" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-container elementor-column-gap-no">
+                                        <div class="aux-parallax-section elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-42ef3eb3 aux-appear-watch-animation aux-scale-up" data-id="42ef3eb3" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-2c6a3fac elementor-widget__width-auto elementor-widget elementor-widget-aux_logo" data-id="2c6a3fac" data-element_type="widget" data-widget_type="aux_logo.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="aux-widget-logo"><a class="aux-logo-anchor aux-has-logo" title="Ecommerce" href="http://localhost/word3/"><img width="177" height="115" src="http://localhost/word3/wp-content/uploads/2023/03/logo.png" class="aux-attachment aux-featured-image attachment-177x115 aux-attachment-id-68 " alt="logo" data-ratio="1.54" data-original-w="177" /></a>
+                                                            <a
+                                                                class="aux-logo-anchor aux-logo-sticky aux-logo-hidden aux-has-logo" title="Ecommerce" href="http://localhost/word3/"><img width="177" height="115" src="http://localhost/word3/wp-content/uploads/2023/03/logo.png" class="aux-attachment aux-featured-image attachment-177x115 aux-attachment-id-68 " alt="logo" data-ratio="1.54"
+                                                                    data-original-w="177" /></a>
+                                                                <section class="aux-logo-text">
+                                                                    <h3 class="site-title"><a href="http://localhost/word3/" title="Ecommerce">Ecommerce</a></h3>
+                                                                    <p class="site-description">Yet another awesome website by Phlox theme.</p>
+                                                                </section>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aux-parallax-section elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1a10b693 aux-appear-watch-animation aux-fade-in-right" data-id="1a10b693" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-6db2a225 elementor-widget elementor-widget-heading" data-id="6db2a225" data-element_type="widget" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <style>
+                                                            /*! elementor - v3.11.5 - 14-03-2023 */
+
+                                                            .elementor-heading-title {
+                                                                padding: 0;
+                                                                margin: 0;
+                                                                line-height: 1
+                                                            }
+
+                                                            .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                                                color: inherit;
+                                                                font-size: inherit;
+                                                                line-height: inherit
+                                                            }
+
+                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                                                font-size: 15px
+                                                            }
+
+                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                                                font-size: 19px
+                                                            }
+
+                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                                                font-size: 29px
+                                                            }
+
+                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                                                font-size: 39px
+                                                            }
+
+                                                            .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                                                font-size: 59px
+                                                            }
+                                                        </style>
+                                                        <h4 class="elementor-heading-title elementor-size-default">Visit Link</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-3caddb1c elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3caddb1c" data-element_type="widget"
+                                                    data-widget_type="icon-list.default">
+                                                    <div class="elementor-widget-container">
+                                                        <link rel="stylesheet" href="http://localhost/word3/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">
+                                                        <ul class="elementor-icon-list-items">
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="#">
+
+											<span class="elementor-icon-list-text">Privacy</span>
+											</a>
+                                                            </li>
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="#">
+
+											<span class="elementor-icon-list-text">Terms &amp; Conditions</span>
+											</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aux-parallax-section elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-94167d9 aux-appear-watch-animation aux-fade-in-right" data-id="94167d9" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-26650bf1 elementor-widget elementor-widget-heading" data-id="26650bf1" data-element_type="widget" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h4 class="elementor-heading-title elementor-size-default">Company</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-2640a9b3 elementor-widget elementor-widget-aux_menu_box" data-id="2640a9b3" data-element_type="widget" data-widget_type="aux_menu_box.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="aux-elementor-header-menu aux-nav-menu-element aux-nav-menu-element-2640a9b3">
+                                                            <div class="aux-burger-box" data-target-panel="toggle-bar" data-target-content=".elementor-element-2640a9b3 .aux-master-menu">
+                                                                <div class="aux-burger aux-lite-small"><span class="mid-line"></span></div>
+                                                            </div>
+                                                            <!-- start master menu -->
+                                                            <nav id="master-menu-elementor-2640a9b3" class="menu-header-social-menu-container">
+
+                                                                <ul id="menu-header-social-menu-1" class="aux-master-menu aux-no-js aux-skin-classic aux-vertical" data-type="vertical" data-switch-type="toggle" data-switch-parent=".elementor-element-2640a9b3 .aux-toggle-menu-bar" data-switch-width="custom">
+                                                                    <!-- start single menu -->
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-42 current_page_item menu-item-231 aux-menu-depth-0 aux-menu-root-1 aux-menu-item">
+                                                                        <a href="http://localhost/word3/" class="aux-item-content">
+				<span class="aux-menu-label">Home</span>
+			</a>
+                                                                    </li>
+                                                                    <!-- end single menu -->
+                                                                    <!-- start single menu -->
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233 aux-menu-depth-0 aux-menu-root-2 aux-menu-item">
+                                                                        <a href="http://localhost/word3/about/" class="aux-item-content">
+				<span class="aux-menu-label">Blogs</span>
+			</a>
+                                                                    </li>
+                                                                    <!-- end single menu -->
+                                                                    <!-- start single menu -->
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232 aux-menu-depth-0 aux-menu-root-3 aux-menu-item">
+                                                                        <a href="http://localhost/word3/about/" class="aux-item-content">
+				<span class="aux-menu-label">Contact Us</span>
+			</a>
+                                                                    </li>
+                                                                    <!-- end single menu -->
+                                                                    <!-- start single menu -->
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-42 current_page_item menu-item-229 aux-menu-depth-0 aux-menu-root-4 aux-menu-item">
+                                                                        <a href="http://localhost/word3/" class="aux-item-content">
+				<span class="aux-menu-label">About</span>
+			</a>
+                                                                    </li>
+                                                                    <!-- end single menu -->
+                                                                </ul>
+
+                                                            </nav>
+                                                            <!-- end master menu -->
+                                                            <div class="aux-toggle-menu-bar"></div>
+                                                        </div>
+                                                        <style>
+                                                            @media only screen and (min-width: 1px) {
+                                                                .elementor-element-2640a9b3 .aux-burger-box {
+                                                                    display: none
+                                                                }
+                                                            }
+                                                        </style>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aux-parallax-section elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-487adf5e aux-appear-watch-animation aux-fade-in-right" data-id="487adf5e" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-32451a06 elementor-widget elementor-widget-heading" data-id="32451a06" data-element_type="widget" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h4 class="elementor-heading-title elementor-size-default">Contact</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-57c38590 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="57c38590" data-element_type="widget"
+                                                    data-widget_type="icon-list.default">
+                                                    <div class="elementor-widget-container">
+                                                        <ul class="elementor-icon-list-items">
+                                                            <li class="elementor-icon-list-item">
+                                                                <span class="elementor-icon-list-text">+99 (0) 101 0000 888 </span>
+                                                            </li>
+                                                            <li class="elementor-icon-list-item">
+                                                                <span class="elementor-icon-list-text">Info@yourdomain.com</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aux-parallax-section elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-3fff6561 aux-appear-watch-animation aux-fade-in-right" data-id="3fff6561" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-6ac40566 elementor-widget elementor-widget-heading" data-id="6ac40566" data-element_type="widget" data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h4 class="elementor-heading-title elementor-size-default">Address</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-18ed7d3e elementor-widget elementor-widget-text-editor" data-id="18ed7d3e" data-element_type="widget" data-widget_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <style>
+                                                            /*! elementor - v3.11.5 - 14-03-2023 */
+
+                                                            .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                                background-color: #818a91;
+                                                                color: #fff
+                                                            }
+
+                                                            .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                                color: #818a91;
+                                                                border: 3px solid;
+                                                                background-color: transparent
+                                                            }
+
+                                                            .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                                margin-top: 8px
+                                                            }
+
+                                                            .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                                width: 1em;
+                                                                height: 1em
+                                                            }
+
+                                                            .elementor-widget-text-editor .elementor-drop-cap {
+                                                                float: left;
+                                                                text-align: center;
+                                                                line-height: 1;
+                                                                font-size: 50px
+                                                            }
+
+                                                            .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                                display: inline-block
+                                                            }
+                                                        </style>
+                                                        <p>Patricia Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="elementor-section elementor-top-section elementor-element elementor-element-7e2fe5da elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7e2fe5da" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-container elementor-column-gap-no">
+                                        <div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-36177cf6" data-id="36177cf6" data-element_type="column">
+                                            <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div class="elementor-element elementor-element-5975b4b2 elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-widget elementor-widget-aux_copyright" data-id="5975b4b2" data-element_type="widget" data-widget_type="aux_copyright.default">
+                                                    <div class="elementor-widget-container">
+                                                        <small>Copyright &copy; 2023 phlox. All Rights Reserved.</small> </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-1c3639dc e-grid-align-mobile-center elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
+                                                    data-id="1c3639dc" data-element_type="widget" data-widget_type="social-icons.default">
+                                                    <div class="elementor-widget-container">
+                                                        <style>
+                                                            /*! elementor - v3.11.5 - 14-03-2023 */
+
+                                                            .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+                                                            .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+                                                            .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+                                                                line-height: 1;
+                                                                font-size: 0
+                                                            }
+
+                                                            .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+                                                                display: inline-grid
+                                                            }
+
+                                                            .elementor-widget-social-icons .elementor-grid {
+                                                                grid-column-gap: var(--grid-column-gap, 5px);
+                                                                grid-row-gap: var(--grid-row-gap, 5px);
+                                                                grid-template-columns: var(--grid-template-columns);
+                                                                justify-content: var(--justify-content, center);
+                                                                justify-items: var(--justify-content, center)
+                                                            }
+
+                                                            .elementor-icon.elementor-social-icon {
+                                                                font-size: var(--icon-size, 25px);
+                                                                line-height: var(--icon-size, 25px);
+                                                                width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
+                                                                height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))
+                                                            }
+
+                                                            .elementor-social-icon {
+                                                                --e-social-icon-icon-color: #fff;
+                                                                display: inline-flex;
+                                                                background-color: #818a91;
+                                                                align-items: center;
+                                                                justify-content: center;
+                                                                text-align: center;
+                                                                cursor: pointer
+                                                            }
+
+                                                            .elementor-social-icon i {
+                                                                color: var(--e-social-icon-icon-color)
+                                                            }
+
+                                                            .elementor-social-icon svg {
+                                                                fill: var(--e-social-icon-icon-color)
+                                                            }
+
+                                                            .elementor-social-icon:last-child {
+                                                                margin: 0
+                                                            }
+
+                                                            .elementor-social-icon:hover {
+                                                                opacity: .9;
+                                                                color: #fff
+                                                            }
+
+                                                            .elementor-social-icon-android {
+                                                                background-color: #a4c639
+                                                            }
+
+                                                            .elementor-social-icon-apple {
+                                                                background-color: #999
+                                                            }
+
+                                                            .elementor-social-icon-behance {
+                                                                background-color: #1769ff
+                                                            }
+
+                                                            .elementor-social-icon-bitbucket {
+                                                                background-color: #205081
+                                                            }
+
+                                                            .elementor-social-icon-codepen {
+                                                                background-color: #000
+                                                            }
+
+                                                            .elementor-social-icon-delicious {
+                                                                background-color: #39f
+                                                            }
+
+                                                            .elementor-social-icon-deviantart {
+                                                                background-color: #05cc47
+                                                            }
+
+                                                            .elementor-social-icon-digg {
+                                                                background-color: #005be2
+                                                            }
+
+                                                            .elementor-social-icon-dribbble {
+                                                                background-color: #ea4c89
+                                                            }
+
+                                                            .elementor-social-icon-elementor {
+                                                                background-color: #d30c5c
+                                                            }
+
+                                                            .elementor-social-icon-envelope {
+                                                                background-color: #ea4335
+                                                            }
+
+                                                            .elementor-social-icon-facebook,
+                                                            .elementor-social-icon-facebook-f {
+                                                                background-color: #3b5998
+                                                            }
+
+                                                            .elementor-social-icon-flickr {
+                                                                background-color: #0063dc
+                                                            }
+
+                                                            .elementor-social-icon-foursquare {
+                                                                background-color: #2d5be3
+                                                            }
+
+                                                            .elementor-social-icon-free-code-camp,
+                                                            .elementor-social-icon-freecodecamp {
+                                                                background-color: #006400
+                                                            }
+
+                                                            .elementor-social-icon-github {
+                                                                background-color: #333
+                                                            }
+
+                                                            .elementor-social-icon-gitlab {
+                                                                background-color: #e24329
+                                                            }
+
+                                                            .elementor-social-icon-globe {
+                                                                background-color: #818a91
+                                                            }
+
+                                                            .elementor-social-icon-google-plus,
+                                                            .elementor-social-icon-google-plus-g {
+                                                                background-color: #dd4b39
+                                                            }
+
+                                                            .elementor-social-icon-houzz {
+                                                                background-color: #7ac142
+                                                            }
+
+                                                            .elementor-social-icon-instagram {
+                                                                background-color: #262626
+                                                            }
+
+                                                            .elementor-social-icon-jsfiddle {
+                                                                background-color: #487aa2
+                                                            }
+
+                                                            .elementor-social-icon-link {
+                                                                background-color: #818a91
+                                                            }
+
+                                                            .elementor-social-icon-linkedin,
+                                                            .elementor-social-icon-linkedin-in {
+                                                                background-color: #0077b5
+                                                            }
+
+                                                            .elementor-social-icon-medium {
+                                                                background-color: #00ab6b
+                                                            }
+
+                                                            .elementor-social-icon-meetup {
+                                                                background-color: #ec1c40
+                                                            }
+
+                                                            .elementor-social-icon-mixcloud {
+                                                                background-color: #273a4b
+                                                            }
+
+                                                            .elementor-social-icon-odnoklassniki {
+                                                                background-color: #f4731c
+                                                            }
+
+                                                            .elementor-social-icon-pinterest {
+                                                                background-color: #bd081c
+                                                            }
+
+                                                            .elementor-social-icon-product-hunt {
+                                                                background-color: #da552f
+                                                            }
+
+                                                            .elementor-social-icon-reddit {
+                                                                background-color: #ff4500
+                                                            }
+
+                                                            .elementor-social-icon-rss {
+                                                                background-color: #f26522
+                                                            }
+
+                                                            .elementor-social-icon-shopping-cart {
+                                                                background-color: #4caf50
+                                                            }
+
+                                                            .elementor-social-icon-skype {
+                                                                background-color: #00aff0
+                                                            }
+
+                                                            .elementor-social-icon-slideshare {
+                                                                background-color: #0077b5
+                                                            }
+
+                                                            .elementor-social-icon-snapchat {
+                                                                background-color: #fffc00
+                                                            }
+
+                                                            .elementor-social-icon-soundcloud {
+                                                                background-color: #f80
+                                                            }
+
+                                                            .elementor-social-icon-spotify {
+                                                                background-color: #2ebd59
+                                                            }
+
+                                                            .elementor-social-icon-stack-overflow {
+                                                                background-color: #fe7a15
+                                                            }
+
+                                                            .elementor-social-icon-steam {
+                                                                background-color: #00adee
+                                                            }
+
+                                                            .elementor-social-icon-stumbleupon {
+                                                                background-color: #eb4924
+                                                            }
+
+                                                            .elementor-social-icon-telegram {
+                                                                background-color: #2ca5e0
+                                                            }
+
+                                                            .elementor-social-icon-thumb-tack {
+                                                                background-color: #1aa1d8
+                                                            }
+
+                                                            .elementor-social-icon-tripadvisor {
+                                                                background-color: #589442
+                                                            }
+
+                                                            .elementor-social-icon-tumblr {
+                                                                background-color: #35465c
+                                                            }
+
+                                                            .elementor-social-icon-twitch {
+                                                                background-color: #6441a5
+                                                            }
+
+                                                            .elementor-social-icon-twitter {
+                                                                background-color: #1da1f2
+                                                            }
+
+                                                            .elementor-social-icon-viber {
+                                                                background-color: #665cac
+                                                            }
+
+                                                            .elementor-social-icon-vimeo {
+                                                                background-color: #1ab7ea
+                                                            }
+
+                                                            .elementor-social-icon-vk {
+                                                                background-color: #45668e
+                                                            }
+
+                                                            .elementor-social-icon-weibo {
+                                                                background-color: #dd2430
+                                                            }
+
+                                                            .elementor-social-icon-weixin {
+                                                                background-color: #31a918
+                                                            }
+
+                                                            .elementor-social-icon-whatsapp {
+                                                                background-color: #25d366
+                                                            }
+
+                                                            .elementor-social-icon-wordpress {
+                                                                background-color: #21759b
+                                                            }
+
+                                                            .elementor-social-icon-xing {
+                                                                background-color: #026466
+                                                            }
+
+                                                            .elementor-social-icon-yelp {
+                                                                background-color: #af0606
+                                                            }
+
+                                                            .elementor-social-icon-youtube {
+                                                                background-color: #cd201f
+                                                            }
+
+                                                            .elementor-social-icon-500px {
+                                                                background-color: #0099e5
+                                                            }
+
+                                                            .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+                                                                border-radius: 10%
+                                                            }
+
+                                                            .elementor-shape-circle .elementor-icon.elementor-social-icon {
+                                                                border-radius: 50%
+                                                            }
+                                                        </style>
+                                                        <div class="elementor-social-icons-wrapper elementor-grid">
+                                                            <span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-63f06cd" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+                                                            <i class="fab fa-instagram"></i> </a>
+                                                            </span>
+                                                            <span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-f8b20cb" target="_blank">
+						<span class="elementor-screen-only">Linkedin-in</span>
+                                                            <i class="fab fa-linkedin-in"></i> </a>
+                                                            </span>
+                                                            <span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-50b35af" target="_blank">
+						<span class="elementor-screen-only">Facebook-f</span>
+                                                            <i class="fab fa-facebook-f"></i> </a>
+                                                            </span>
+                                                            <span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-5813c2d" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+                                                            <i class="fab fa-twitter"></i> </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <!-- end of wrapper -->
+                    </footer>
+                    <!-- end footer -->
+
+                    </div>
+                    <!--! end of #inner-body -->
+
+                    <div class="aux-hidden-blocks">
+
+                        <section id="offmenu" class="aux-offcanvas-menu aux-pin-left">
+                            <div class="aux-panel-close">
+                                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+                            </div>
+                            <div class="offcanvas-header">
+                            </div>
+                            <div class="offcanvas-content">
+                            </div>
+                            <div class="offcanvas-footer">
+                            </div>
+                        </section>
+                        <!-- offcanvas section -->
+
+                        <section id="offcart" class="aux-offcanvas-menu aux-offcanvas-cart aux-pin-left">
+                            <div class="aux-panel-close">
+                                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+                            </div>
+                            <div class="offcanvas-header">
+                                Shopping Basket </div>
+                            <div class="aux-cart-wrapper aux-elegant-cart aux-offcart-content">
+                            </div>
+                        </section>
+                        <!-- cartcanvas section -->
+
+                        <section id="fs-menu-search" class="aux-fs-popup  aux-fs-menu-layout-center aux-indicator">
+                            <div class="aux-panel-close">
+                                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+                            </div>
+                            <div class="aux-fs-menu">
+                            </div>
+                            <div class="aux-fs-search">
+                                <div class="aux-search-section ">
+                                    <div class="aux-search-form ">
+                                        <form action="http://localhost/word3/" method="get">
+                                            <div class="aux-search-input-form">
+                                                <input type="text" class="aux-search-field" placeholder="Type here.." name="s" autocomplete="off" />
+                                            </div>
+                                            <input type="submit" class="aux-black aux-search-submit aux-uppercase" value="Search">
+                                        </form>
+                                    </div>
+                                    <!-- end searchform -->
+                                </div>
+
+                            </div>
+                        </section>
+                        <!-- fullscreen search and menu -->
+                        <section id="fs-search" class="aux-fs-popup aux-search-overlay  has-ajax-form">
+                            <div class="aux-panel-close">
+                                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+                            </div>
+                            <div class="aux-search-field">
+
+                                <div class="aux-search-section aux-404-search">
+                                    <div class="aux-search-form aux-iconic-search">
+                                        <form action="http://localhost/word3/" method="get">
+                                            <div class="aux-search-input-form">
+                                                <input type="text" class="aux-search-field" placeholder="Search..." name="s" autocomplete="off" />
+                                            </div>
+                                            <div class="aux-submit-icon-container auxicon-search-4 ">
+                                                <input type="submit" class="aux-iconic-search-submit" value="Search">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- end searchform -->
+                                </div>
+
+                            </div>
+                        </section>
+                        <!-- fullscreen search-->
+
+                        <div class="aux-scroll-top"></div>
+                    </div>
+
+                    <div class="aux-goto-top-btn aux-align-btn-right" data-animate-scroll="1">
+                        <div class="aux-hover-slide aux-arrow-nav aux-round aux-outline"> <span class="aux-overlay"></span> <span class="aux-svg-arrow aux-h-small-up"></span> <span class="aux-hover-arrow aux-svg-arrow aux-h-small-up aux-white"></span></div>
+                    </div>
+                    <!-- outputs by wp_footer -->
+                    <script src='http://localhost/word3/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+                    <script src='http://localhost/word3/wp-includes/js/masonry.min.js?ver=4.2.2' id='masonry-js'></script>
+                    <script src='http://localhost/word3/wp-content/themes/phlox/js/plugins.min.js?ver=2.11.1' id='auxin-plugins-js'></script>
+                    <script src='http://localhost/word3/wp-content/themes/phlox/js/scripts.min.js?ver=2.11.1' id='auxin-scripts-js'></script>
+                    <script src='http://localhost/word3/wp-content/plugins/auxin-elements/admin/assets/js/elementor/widgets.js?ver=2.11.2' id='auxin-elementor-widgets-js'></script>
+                    <script id='mediaelement-core-js-before'>
+                        var mejsL10n = {
+                            "language": "en",
+                            "strings": {
+                                "mejs.download-file": "Download File",
+                                "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/",
+                                "mejs.fullscreen": "Fullscreen",
+                                "mejs.play": "Play",
+                                "mejs.pause": "Pause",
+                                "mejs.time-slider": "Time Slider",
+                                "mejs.time-help-text": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.",
+                                "mejs.live-broadcast": "Live Broadcast",
+                                "mejs.volume-help-text": "Use Up\/Down Arrow keys to increase or decrease volume.",
+                                "mejs.unmute": "Unmute",
+                                "mejs.mute": "Mute",
+                                "mejs.volume-slider": "Volume Slider",
+                                "mejs.video-player": "Video Player",
+                                "mejs.audio-player": "Audio Player",
+                                "mejs.captions-subtitles": "Captions\/Subtitles",
+                                "mejs.captions-chapters": "Chapters",
+                                "mejs.none": "None",
+                                "mejs.afrikaans": "Afrikaans",
+                                "mejs.albanian": "Albanian",
+                                "mejs.arabic": "Arabic",
+                                "mejs.belarusian": "Belarusian",
+                                "mejs.bulgarian": "Bulgarian",
+                                "mejs.catalan": "Catalan",
+                                "mejs.chinese": "Chinese",
+                                "mejs.chinese-simplified": "Chinese (Simplified)",
+                                "mejs.chinese-traditional": "Chinese (Traditional)",
+                                "mejs.croatian": "Croatian",
+                                "mejs.czech": "Czech",
+                                "mejs.danish": "Danish",
+                                "mejs.dutch": "Dutch",
+                                "mejs.english": "English",
+                                "mejs.estonian": "Estonian",
+                                "mejs.filipino": "Filipino",
+                                "mejs.finnish": "Finnish",
+                                "mejs.french": "French",
+                                "mejs.galician": "Galician",
+                                "mejs.german": "German",
+                                "mejs.greek": "Greek",
+                                "mejs.haitian-creole": "Haitian Creole",
+                                "mejs.hebrew": "Hebrew",
+                                "mejs.hindi": "Hindi",
+                                "mejs.hungarian": "Hungarian",
+                                "mejs.icelandic": "Icelandic",
+                                "mejs.indonesian": "Indonesian",
+                                "mejs.irish": "Irish",
+                                "mejs.italian": "Italian",
+                                "mejs.japanese": "Japanese",
+                                "mejs.korean": "Korean",
+                                "mejs.latvian": "Latvian",
+                                "mejs.lithuanian": "Lithuanian",
+                                "mejs.macedonian": "Macedonian",
+                                "mejs.malay": "Malay",
+                                "mejs.maltese": "Maltese",
+                                "mejs.norwegian": "Norwegian",
+                                "mejs.persian": "Persian",
+                                "mejs.polish": "Polish",
+                                "mejs.portuguese": "Portuguese",
+                                "mejs.romanian": "Romanian",
+                                "mejs.russian": "Russian",
+                                "mejs.serbian": "Serbian",
+                                "mejs.slovak": "Slovak",
+                                "mejs.slovenian": "Slovenian",
+                                "mejs.spanish": "Spanish",
+                                "mejs.swahili": "Swahili",
+                                "mejs.swedish": "Swedish",
+                                "mejs.tagalog": "Tagalog",
+                                "mejs.thai": "Thai",
+                                "mejs.turkish": "Turkish",
+                                "mejs.ukrainian": "Ukrainian",
+                                "mejs.vietnamese": "Vietnamese",
+                                "mejs.welsh": "Welsh",
+                                "mejs.yiddish": "Yiddish"
+                            }
+                        };
+                    </script>
+                    <script src='http://localhost/word3/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17' id='mediaelement-core-js'></script>
+                    <script src='http://localhost/word3/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.1.1' id='mediaelement-migrate-js'></script>
+                    <script id='mediaelement-js-extra'>
+                        var _wpmejsSettings = {
+                            "pluginPath": "\/word3\/wp-includes\/js\/mediaelement\/",
+                            "classPrefix": "mejs-",
+                            "stretching": "auto"
+                        };
+                    </script>
+                    <script src='http://localhost/word3/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.1.1' id='wp-mediaelement-js'></script>
+                    <script src='http://localhost/word3/wp-content/plugins/auxin-elements/public/assets/js/plugins.min.js?ver=2.11.2' id='auxin-elements-plugins-js'></script>
+                    <script src='http://localhost/word3/wp-content/plugins/auxin-elements/public/assets/js/scripts.js?ver=2.11.2' id='auxin-elements-scripts-js'></script>
+                    <script id='auxin-portfolio-portfolio-js-extra'>
+                        var auxpfo = {
+                            "ajax_url": "http:\/\/localhost\/word3\/wp-admin\/admin-ajax.php",
+                            "invalid_required": "This is a required field",
+                            "invalid_postcode": "Zipcode must be digits",
+                            "invalid_phonenum": "Enter a valid phone number",
+                            "invalid_emailadd": "Enter a valid email address"
+                        };
+                    </script>
+                    <script src='http://localhost/word3/wp-content/plugins/auxin-portfolio/public/assets/js/portfolio.js?ver=2.3.1' id='auxin-portfolio-portfolio-js'></script>
+                    <script src='http://localhost/word3/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.4' id='swv-js'></script>
+                    <script id='contact-form-7-js-extra'>
+                        var wpcf7 = {
+                            "api": {
+                                "root": "http:\/\/localhost\/word3\/wp-json\/",
+                                "namespace": "contact-form-7\/v1"
+                            }
+                        };
+                    </script>
+                    <script src='http://localhost/word3/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.4' id='contact-form-7-js'></script>
+                    <script src='http://localhost/word3/wp-content/uploads/phlox/custom.js?ver=8.8' id='auxin-custom-js-js'></script>
+                    <script src='http://localhost/word3/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1' id='jquery-numerator-js'></script>
+                    <script src='http://localhost/word3/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.11.5' id='elementor-webpack-runtime-js'></script>
+                    <script src='http://localhost/word3/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.11.5' id='elementor-frontend-modules-js'></script>
+                    <script src='http://localhost/word3/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+                    <script src='http://localhost/word3/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+                    <script id='elementor-frontend-js-before'>
+                        var elementorFrontendConfig = {
+                            "environmentMode": {
+                                "edit": false,
+                                "wpPreview": false,
+                                "isScriptDebug": false
+                            },
+                            "i18n": {
+                                "shareOnFacebook": "Share on Facebook",
+                                "shareOnTwitter": "Share on Twitter",
+                                "pinIt": "Pin it",
+                                "download": "Download",
+                                "downloadImage": "Download image",
+                                "fullscreen": "Fullscreen",
+                                "zoom": "Zoom",
+                                "share": "Share",
+                                "playVideo": "Play Video",
+                                "previous": "Previous",
+                                "next": "Next",
+                                "close": "Close"
+                            },
+                            "is_rtl": false,
+                            "breakpoints": {
+                                "xs": 0,
+                                "sm": 480,
+                                "md": 768,
+                                "lg": 1025,
+                                "xl": 1440,
+                                "xxl": 1600
+                            },
+                            "responsive": {
+                                "breakpoints": {
+                                    "mobile": {
+                                        "label": "Mobile",
+                                        "value": 767,
+                                        "default_value": 767,
+                                        "direction": "max",
+                                        "is_enabled": true
+                                    },
+                                    "mobile_extra": {
+                                        "label": "Mobile Extra",
+                                        "value": 880,
+                                        "default_value": 880,
+                                        "direction": "max",
+                                        "is_enabled": false
+                                    },
+                                    "tablet": {
+                                        "label": "Tablet",
+                                        "value": 1024,
+                                        "default_value": 1024,
+                                        "direction": "max",
+                                        "is_enabled": true
+                                    },
+                                    "tablet_extra": {
+                                        "label": "Tablet Extra",
+                                        "value": 1200,
+                                        "default_value": 1200,
+                                        "direction": "max",
+                                        "is_enabled": false
+                                    },
+                                    "laptop": {
+                                        "label": "Laptop",
+                                        "value": 1366,
+                                        "default_value": 1366,
+                                        "direction": "max",
+                                        "is_enabled": false
+                                    },
+                                    "widescreen": {
+                                        "label": "Widescreen",
+                                        "value": 2400,
+                                        "default_value": 2400,
+                                        "direction": "min",
+                                        "is_enabled": false
+                                    }
+                                }
+                            },
+                            "version": "3.11.5",
+                            "is_static": false,
+                            "experimentalFeatures": {
+                                "e_dom_optimization": true,
+                                "e_optimized_assets_loading": true,
+                                "e_optimized_css_loading": true,
+                                "a11y_improvements": true,
+                                "additional_custom_breakpoints": true,
+                                "e_swiper_latest": true,
+                                "landing-pages": true,
+                                "kit-elements-defaults": true
+                            },
+                            "urls": {
+                                "assets": "http:\/\/localhost\/word3\/wp-content\/plugins\/elementor\/assets\/"
+                            },
+                            "swiperClass": "swiper",
+                            "settings": {
+                                "page": [],
+                                "editorPreferences": []
+                            },
+                            "kit": {
+                                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                                "global_image_lightbox": "yes",
+                                "lightbox_enable_counter": "yes",
+                                "lightbox_enable_fullscreen": "yes",
+                                "lightbox_enable_zoom": "yes",
+                                "lightbox_enable_share": "yes",
+                                "lightbox_title_src": "title",
+                                "lightbox_description_src": "description"
+                            },
+                            "post": {
+                                "id": 42,
+                                "title": "Ecommerce%20%E2%80%93%20Yet%20another%20awesome%20website%20by%20Phlox%20theme.",
+                                "excerpt": "",
+                                "featuredImage": false
+                            }
+                        };
+                    </script>
+                    <script src='http://localhost/word3/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.11.5' id='elementor-frontend-js'></script>
+                    <!-- end wp_footer -->
+</body>
+
+</html>
